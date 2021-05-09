@@ -1,0 +1,311 @@
+/* Navbar Section*/
+.navbar{
+    padding-top: 2em;
+}
+.btn-outline-success{
+    border-radius: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size : 12px;
+    width: 100px;
+    height: 40px;
+    border-color: #525FFB;
+    color: #525FFB;
+}
+.btn-outline-success:hover{
+    background-color: #525FFB;
+}
+
+/* Banner Section*/
+.site-banner .banner-image .img-fluid{
+    padding: 2rem 0;
+    padding-left: 1em;
+    transform: translate(0px,10px);
+    transition: 0.5s;
+}
+.site-banner .banner-image .img-fluid:hover{
+    padding: 2rem 0;
+    padding-left: 1em;
+    transform: translate(0px,0px);
+    transition: 0.5s;
+    
+}
+.site-banner .site-title{
+    padding: 12rem 0;
+}
+.site-banner .site-title h1{
+    font-weight: 800;
+    font-size: 43px;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+.site-banner .site-title p{
+    font-weight: 600;
+    font-size: 13px;
+    color: #B1AAAA;
+}
+.site-banner .form-row .form-control{
+    border-radius: 30px;
+    font-size : 12px;
+    height: 50px;
+    color: #B1AAAA;
+}
+.site-banner .form-row .form-control::placeholder{
+    color: #B1AAAA;
+}
+.site-banner .form-row .btn{
+    border-radius: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size : 12px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #525FFB;
+}
+.site-banner .form-row .btn:hover{
+    background-color: #4955df;
+}
+
+
+/* Cards Section*/ 
+
+.cardhead{   
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+}
+.cards .basecard .card-img-top{
+    padding-top: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:250px;
+    height: auto;
+}
+.cards .basecard .card{
+    border-radius: 0.5rem;
+}
+.cards .basecard .card-title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:130px;
+    height: auto;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.cards .basecard .card-text{
+    text-align: center;
+    color: white;
+    line-height: 1.3;
+    font-weight: 600;
+}
+.cards .basecard.card1 .card {
+    background-color: #525FFB;
+}
+.cards .basecard.card2 .card{
+    background-color: #E9F0FF;
+}
+.cards .basecard.card3 .card{
+    background-color: #FFE7AA;
+}
+.cards .basecard.card2 .card-text,
+.cards .basecard.card3 .card-text,
+.cards .basecard.card2 .card-title,
+.cards .basecard.card3 .card-title{
+    color: black;
+}
+.cards .basecard.card1{
+    margin-top: 2rem;
+    transform: translate(0px,10px);
+    transition: 0.5s;
+}
+.cards .basecard.card1:hover{
+    margin-top: 2rem;
+    transform: translate(0px,0px);
+    transition: 0.5s;
+}
+.cards .basecard.card2{
+    margin-top: 6rem;
+    transform: translate(0px,10px);
+    transition: 0.5s;
+}
+.cards .basecard.card2:hover{
+    margin-top: 6rem;
+    transform: translate(0px,0px);
+    transition: 0.5s;
+}
+.cards .basecard.card3{
+    margin-top: 3rem;
+    transform: translate(0px,10px);
+    transition: 0.5s;
+}
+.cards .basecard.card3:hover{
+    margin-top: 3rem;
+    transform: translate(0px,0px);
+    transition: 0.5s;
+}
+/* Tablet Section*/
+
+.tablet .tab{
+    transform: scale(1.2, 1.2);
+    margin-top: 15rem;
+    transform: translate(0px,10px);
+    transition: 0.5s;
+}
+.tablet .tab:hover{
+    transform: scale(1.2, 1.2);
+    margin-top: 15rem;
+    transform: translate(0px,0px);
+    transition: 0.5s;
+}
+.tablet .tablettext{
+    margin-top: 13rem;
+}
+.tablet .tablettext{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+.tablet .tabletp{
+    font-weight: 800;
+    font-size: 12px;
+    color: #B1AAAA;
+    line-height: 1.8;
+
+}
+.tablet .tabletbtn .btn{
+    border-radius: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size : 12px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #525FFB;
+}
+.tablet .tabletbtn .btn:hover{
+    background-color: #4955df;
+}
+
+/* Users Section*/
+
+.cardhead.cardheadusers{
+    margin-top: 20rem;
+}
+.users .cardhead.cardheadnumber{
+    margin-top: 10rem;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #525FFB;
+}
+.users .userphoto3{
+    margin-top: 12rem;
+}
+.users .userphoto2{
+    margin-top: 15rem;
+    margin-left: 2rem;
+
+}
+.users .userphoto4{
+    position: relative;
+    transform: translateY(-80px);
+}
+.users .userphoto5{
+    position: relative;
+    transform: translateY(300px);
+}
+.users .userphoto6{
+    position: relative;
+    transform: translateY(150px);
+}
+/* Footer Section*/
+.footer .footerdesc{
+    font-weight: 300;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.cardhead.cardheadusers.footer{
+    padding-bottom: 0rem;
+    text-align: center;
+}
+.footer .form-row .form-control{
+    border-radius: 30px;
+    font-size : 12px;
+    height: 50px;
+    color: #B1AAAA;
+    width: 220px;
+    transform: translateX(-30px);
+}
+
+.footer .form-row .form-control::placeholder{
+    color: #B1AAAA;
+}
+.footer .form-row .btn{
+    border-radius: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size : 12px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #525FFB;
+    transform: translateX(30px);
+}
+.footer .form-row .btn:hover{
+    background-color: #4955df;
+}
+.footer .form-row{
+    margin-bottom: 10rem;
+}
+.background{
+    position: absolute;
+	bottom: 5;
+	left: 5;
+	height: 100%;
+    width: 40vw;
+    height: 40vh;
+    transform: translate(800px,80px)
+}
+.background2{
+    position: absolute;
+	bottom: 5;
+	left: 5;
+	height: 100%;
+    width: 40vw;
+    height: 40vh;
+    transform: translate(120px,1555px)
+}
+.background3{
+    position: absolute;
+	bottom: 5;
+	left: 5;
+	height: 100%;
+    width: 40vw;
+    height: 40vh;
+    transform: translate(800px,2084px)
+}
+.background4{
+    position: absolute;
+	bottom: 5;
+	left: 5;
+	height: 100%;
+    width: 40vw;
+    height: 40vh;
+    transform: translate(650px,2441px)
+}
+.background5{
+    position: absolute;
+	bottom: 5;
+	left: 5;
+	height: 100%;
+    width: 40vw;
+    height: 40vh;
+    transform: translate(800px,2856px)
+}
